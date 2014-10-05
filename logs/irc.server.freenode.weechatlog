@@ -1,0 +1,124 @@
+2014-10-03 19:57:31	--	irc: connecting to server node.dedmonson.com/9189 (SSL)...
+2014-10-03 19:57:32	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-10-03 19:57:32	--	gnutls: receiving 1 certificates
+2014-10-03 19:57:32	--	 - certificate[1] info:
+2014-10-03 19:57:32	--	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=znc,CN=host.unknown,EMAIL=znc@host.unknown', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=znc,CN=host.unknown,EMAIL=znc@host.unknown', RSA key 2048 bits, signed using RSA-SHA1, activated `2014-10-03 18:05:56 UTC', expires `2024-09-30 18:05:56 UTC', SHA-1 fingerprint `33bf0987dd01c50a4a6117500e1aa00011a986cf'
+2014-10-03 19:57:32	=!=	gnutls: the hostname in the certificate does NOT match "node.dedmonson.com"
+2014-10-03 19:57:32	=!=	gnutls: peer's certificate is NOT trusted
+2014-10-03 19:57:32	=!=	gnutls: peer's certificate issuer is unknown
+2014-10-03 19:57:32	--	irc: connected to node.dedmonson.com/9189 (50.116.45.119)
+2014-10-03 19:57:32	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso
+2014-10-03 19:57:32	--	irc: client capability, requesting: znc.in/server-time-iso
+2014-10-03 19:57:32	--	irc: client capability, enabled: znc.in/server-time-iso
+2014-10-03 15:35:42	--	Welcome to the freenode Internet Relay Chat Network dedmons
+2014-10-03 15:35:42	--	Your host is sendak.freenode.net[2001:778:627f::1:0:49/7000], running version ircd-seven-1.1.3
+2014-10-03 15:35:42	--	This server was created Tue Apr 8 2014 at 17:59:15 EEST
+2014-10-03 15:35:42	--	sendak.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-03 15:35:42	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-03 15:35:42	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-03 15:35:42	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-03 15:35:42	--	There are 188 users and 92586 invisible on 29 servers
+2014-10-03 15:35:42	--	30 :IRC Operators online
+2014-10-03 15:35:42	--	56398 :channels formed
+2014-10-03 15:35:42	--	I have 8030 clients and 1 servers
+2014-10-03 15:35:42	--	8030 11466 :Current local users 8030, max 11466
+2014-10-03 15:35:42	--	92774 104047 :Current global users 92774, max 104047
+2014-10-03 15:35:42	--	Highest connection count: 11467 (11466 clients) (753110 connections received)
+2014-10-03 15:35:42	--	- sendak.freenode.net Message of the Day -
+2014-10-03 15:35:42	--	- Welcome to sendak.freenode.net in Vilnius, Lithuania, EU.
+2014-10-03 15:35:42	--	- Thanks to Microlink Lietuva (http://www.microlink.lt) for providing this
+2014-10-03 15:35:42	--	- server!
+2014-10-03 15:35:42	--	-
+2014-10-03 15:35:42	--	- SENDAK, MAURICE [1928-2012].  The author of Seven Little
+2014-10-03 15:35:42	--	- Monsters and Where the Wild Things Are, Maurice Sendak was
+2014-10-03 15:35:42	--	- born in Brooklyn, NY, US, to a family of poor Polish
+2014-10-03 15:35:42	--	- immigrants who moved to the US before World War II.  He
+2014-10-03 15:35:42	--	- became an illustrator while in high school.
+2014-10-03 15:35:42	--	-
+2014-10-03 15:35:42	--	- Welcome to freenode - supporting the free and open source
+2014-10-03 15:35:42	--	- software communities since 1998.
+2014-10-03 15:35:42	--	-
+2014-10-03 15:35:42	--	- **************************************************************
+2014-10-03 15:35:42	--	-                       SECURITY ALERT
+2014-10-03 15:35:42	--	-
+2014-10-03 15:35:42	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-03 15:35:42	--	- some compromised binaries present on a number of servers.
+2014-10-03 15:35:42	--	- The servers in question have been removed from the network and
+2014-10-03 15:35:42	--	- shut down.  However, it's possible that network traffic  -
+2014-10-03 15:35:43	--	- including SSL traffic - has been sniffed and passwords
+2014-10-03 15:35:43	--	- exposed.
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	- We therefore recommend that all users change their nickserv
+2014-10-03 15:35:43	--	- password(s) to a new value which is not shared with any
+2014-10-03 15:35:43	--	- other service.
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	- Please note that investigation is ongoing to discover the root
+2014-10-03 15:35:43	--	- cause of the attack, and until this investigation is complete
+2014-10-03 15:35:43	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-03 15:35:43	--	- have been removed. We may have to ask you to change your
+2014-10-03 15:35:43	--	- passwords again after analysis has completed.
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	- Further details will appear on https://blog.freenode.net/
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	- **************************************************************
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	- By connecting to freenode you indicate that you have read and
+2014-10-03 15:35:43	--	- accept our policies as set out on http://www.freenode.net
+2014-10-03 15:35:43	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-03 15:35:43	--	- any network-related questions or queries, where a number of
+2014-10-03 15:35:43	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-03 15:35:43	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-03 15:35:43	--	- real-life collaboration.
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	- We would like to thank Private Internet Access
+2014-10-03 15:35:43	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-03 15:35:43	--	- organisations that help keep freenode and our other projects
+2014-10-03 15:35:43	--	- running for their sustained support.
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	- In particular we would like to thank the sponsor
+2014-10-03 15:35:43	--	- of this server, details of which can be found above.
+2014-10-03 15:35:43	--	-
+2014-10-03 15:35:43	--	End of /MOTD command.
+2014-10-03 19:57:32	--	User mode [+Zi] by dedmons
+2014-10-03 19:57:32	--	You have been marked as being away
+2014-10-03 19:57:32	--	You are no longer marked as being away
+2014-10-03 20:31:16	--	#airnet s npstc :MODE cannot be set due to channel having an active MLOCK restriction policy
+2014-10-03 20:32:58	--	MSG(chanserv): op dedmons
+2014-10-03 20:32:59	--	ChanServ (ChanServ@services.): Channel dedmons is not registered.
+2014-10-03 20:33:40	--	MSG(chanserv): help
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): ***** ChanServ Help *****
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): ChanServ gives normal users the ability to maintain control
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): of a channel, without the need of a bot. Channel takeovers are
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): virtually impossible when a channel is registered with ChanServ.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): Registration is a quick and painless process. Once registered,
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): the founder can maintain complete and total control over the channel.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): Please note that channels will expire if there are no eligible channel successors.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): Successors are primarily those who have the +R flag
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): set on their account in the channel, although other
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): people may be chosen depending on their access
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): level and activity.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.):  
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): For more information on a command, type:
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): /msg ChanServ help <command>
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): For a verbose listing of all commands, type:
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): /msg ChanServ help commands
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.):  
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): The following commands are available:
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): FLAGS           Manipulates specific permissions on a channel.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): INVITE          Invites you to a channel.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): OP              Gives channel ops to a user.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): RECOVER         Regain control of your channel.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): REGISTER        Registers a channel.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): SET             Sets various control flags.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): UNBAN           Unbans you on a channel.
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.):  
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): Other commands: ACCESS, AKICK, CLEAR, COUNT, DEOP, DEVOICE, 
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.):                 DROP, GETKEY, HELP, INFO, QUIET, STATUS, 
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.):                 SYNC, TAXONOMY, TEMPLATE, TOPIC, TOPICAPPEND, 
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.):                 TOPICPREPEND, UNQUIET, VOICE, WHY
+2014-10-03 20:33:41	--	ChanServ (ChanServ@services.): ***** End of Help *****
+2014-10-03 20:33:59	--	MSG(chanserv): op #airnet dedmons

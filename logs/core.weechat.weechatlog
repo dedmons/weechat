@@ -1,0 +1,444 @@
+2014-10-03 19:43:26		Plugins loaded: alias, aspell, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-10-03 19:43:59		Passphrase added
+2014-10-03 19:44:25		Secured data "bncpass" set
+2014-10-03 19:44:25		Options saved to sec.conf
+2014-10-03 19:44:44		Option changed: irc.server_default.nicks = "dedmons"  (default: "")
+2014-10-03 19:44:53		Option changed: irc.server_default.ssl_verify = off  (default: on)
+2014-10-03 19:45:01		Option changed: irc.server_default.capabilities = "znc.in/server-time-iso"  (default: "")
+2014-10-03 19:45:48		irc: server bitlbee created
+2014-10-03 19:46:41		Option changed: irc.server.bitlbee.password = "dedmons/bitlbee:${sec.data.bncpass}"  (default: (undefined))
+2014-10-03 19:46:54		irc: server freenode has been deleted
+2014-10-03 19:47:09		irc: server freenode created
+2014-10-03 19:47:50		Option changed: irc.server.freenode.password = "dedmons/freenode:${sec.data.bncpass}"  (default: (undefined))
+2014-10-03 19:48:19		Option changed: weechat.plugin.autoload = "*,!lua,!tcl,!ruby,!fifo,!logger,!xfer,!relay"  (default: "*")
+2014-10-03 19:48:29		Option changed: aspell.check.default_dict = "en"  (default: "")
+2014-10-03 19:48:35		Option changed: aspell.check.suggestions = 3  (default: -1)
+2014-10-03 19:48:41		Option changed: aspell.color.suggestions = *green  (default: default)
+2014-10-03 19:48:53		Aspell enabled
+2014-10-03 19:49:31		script: downloading list of scripts...
+2014-10-03 19:49:32		script: 280 scripts for WeeChat 1.0
+2014-10-03 19:49:33		perl: loading script "/Users/dedmons/.weechat/perl/buffers.pl"
+2014-10-03 19:49:33		perl: registered script "buffers", version 4.8 (Sidebar with list of buffers)
+2014-10-03 19:49:33		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2014-10-03 19:49:33		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2014-10-03 19:49:33		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2014-10-03 19:49:33		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2014-10-03 19:49:34		python: loading script "/Users/dedmons/.weechat/python/text_item.py"
+2014-10-03 19:49:34		python: registered script "text_item", version 0.4 (add a plain text or evaluated content to item bar)
+2014-10-03 19:49:34		perl: loading script "/Users/dedmons/.weechat/perl/highmon.pl"
+2014-10-03 19:49:35		perl: registered script "highmon", version 2.5 (Highlight Monitor)
+2014-10-03 19:49:35		This appears to be the first time highmon has been run. For help and common set up hints see /highmon help
+2014-10-03 19:49:35		python: loading script "/Users/dedmons/.weechat/python/buffer_autoset.py"
+2014-10-03 19:49:35		python: registered script "buffer_autoset", version 0.6 (Auto-set buffer properties when a buffer is opened)
+2014-10-03 19:49:36		python: loading script "/Users/dedmons/.weechat/python/urlserver.py"
+2014-10-03 19:49:36		python: registered script "urlserver", version 1.7 (Shorten URLs with own HTTP server)
+2014-10-03 19:49:36	=!=	Bind error: [Errno 8] nodename nor servname provided, or not known
+2014-10-03 19:49:36		URL server not running
+2014-10-03 19:49:37		perl: loading script "/Users/dedmons/.weechat/perl/iset.pl"
+2014-10-03 19:49:37		perl: registered script "iset", version 3.6 (Interactive Set for configuration options)
+2014-10-03 19:49:37		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2014-10-03 19:49:37		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2014-10-03 19:49:37		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2014-10-03 19:49:37		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2014-10-03 19:49:37		perl: loading script "/Users/dedmons/.weechat/perl/sort_buffers.pl"
+2014-10-03 19:49:37		perl: registered script "sort_buffers", version 0.4 (irc-buffers will be sorted alphabetically or in reverse order)
+2014-10-03 19:49:38		python: loading script "/Users/dedmons/.weechat/python/cmd_help.py"
+2014-10-03 19:49:38		python: registered script "cmd_help", version 0.4 (Contextual command line help)
+2014-10-03 19:49:38		perl: loading script "/Users/dedmons/.weechat/perl/pushover.pl"
+2014-10-03 19:49:38		perl: registered script "pushover", version 1.0 (Send push notifications to your mobile devices using Pushover, NMA or Pushbullet)
+2014-10-03 19:49:57		Option changed: plugins.var.perl.highmon.alignment = "nchannel"
+2014-10-03 19:50:15		New key binding (context "default"): meta-OP => /cmd_help
+2014-10-03 19:50:34		URL server listening on ('127.0.0.1', 57474)
+2014-10-03 19:50:34		Option changed: plugins.var.python.urlserver.http_hostname = "127.0.0.1"
+2014-10-03 19:50:43		URL server stopped
+2014-10-03 19:50:43		URL server listening on ('127.0.0.1', 30012)
+2014-10-03 19:50:43		Option changed: plugins.var.python.urlserver.http_port = "30012"
+2014-10-03 19:50:52		Option changed: plugins.var.python.urlserver.http_allowed_ips = "^127.0.0.1$"
+2014-10-03 19:51:00		Option changed: plugins.var.python.urlserver.http_url_prefix = "urlz"
+2014-10-03 19:51:27		Option changed: plugins.var.python.urlserver.msg_ignore_buffers = "core.weechat,python.grep,irc.bitlbee.#twitter_dedmons,irc.freenode.##news,perl.highmon"
+2014-10-03 19:51:38		Option changed: iset.color.bg_selected = 31  (default: red)
+2014-10-03 19:51:49		Option changed: iset.color.bg_selected = red
+2014-10-03 19:53:23		Option changed: weechat.bar.buffers.size_max = 12  (default: 0)
+2014-10-03 19:53:35		Option changed: buffers.color.current_fg = *white  (default: lightcyan)
+2014-10-03 19:53:43		Option changed: buffers.color.current_bg = 31  (default: red)
+2014-10-03 19:53:49		Option changed: buffers.color.hotlist_message_fg = 229  (default: yellow)
+2014-10-03 19:53:56		Option changed: buffers.color.hotlist_private_fg = 121  (default: lightgreen)
+2014-10-03 19:54:03		Option changed: buffers.color.hotlist_highlight_fg = 163  (default: magenta)
+2014-10-03 19:54:09		Option changed: buffers.color.number = 253  (default: lightgreen)
+2014-10-03 19:54:16		Option changed: buffers.color.number_char = 245  (default: lightgreen)
+2014-10-03 19:54:57		Option changed: buffers.look.hide_merged_buffers = private  (default: none)
+2014-10-03 19:55:09		Bar "activetitle" created
+2014-10-03 19:55:18		Option changed: weechat.bar.activetitle.priority = 500  (default: 0)
+2014-10-03 19:55:24		Option changed: weechat.bar.activetitle.conditions = "${active}"  (default: "")
+2014-10-03 19:55:31		Option changed: weechat.bar.activetitle.color_fg = *white  (default: default)
+2014-10-03 19:55:36		Option changed: weechat.bar.activetitle.color_bg = 31  (default: default)
+2014-10-03 19:55:51		Option changed: weechat.bar.activetitle.color_bg = blue  (default: default)
+2014-10-03 19:55:57		Option changed: weechat.bar.activetitle.color_bg = 31  (default: default)
+2014-10-03 19:56:06		Option changed: weechat.bar.title.conditions = "${inactive}"  (default: "")
+2014-10-03 19:58:05		Layout of buffers+windows stored in "news" (current layout: news)
+2014-10-03 19:58:31	=!=	Error with command "/window split 20" (help on command: /help window)
+2014-10-03 19:59:04		Layout of buffers+windows stored in "normal" (current layout: normal)
+2014-10-03 19:59:35		Option changed: weechat.bar.title.conditions = "${inactive}"  (default: "")
+2014-10-03 19:59:44		Option changed: weechat.bar.title.color_fg = 31  (default: default)
+2014-10-03 19:59:51		Option changed: weechat.bar.title.color_bg = black  (default: blue)
+2014-10-03 19:59:56		Option changed: weechat.bar.title.color_bg = default  (default: blue)
+2014-10-03 20:00:29		Bar "rootstatus" created
+2014-10-03 20:00:37		Option changed: weechat.bar.rootstatus.color_fg = 31  (default: default)
+2014-10-03 20:00:50		Option changed: weechat.bar.rootstatus.color_bg = default
+2014-10-03 20:00:56		Option changed: weechat.bar.rootstatus.separator = on  (default: off)
+2014-10-03 20:01:11		Option changed: weechat.bar.rootstatus.priority = 500  (default: 0)
+2014-10-03 20:01:19		Bar "status" deleted
+2014-10-03 20:01:35		Bar "rootinput" created
+2014-10-03 20:01:45		Bar "input" deleted
+2014-10-03 20:02:09		Option changed: weechat.bar.rootinput.priority = 1000  (default: 0)
+2014-10-03 20:02:41		Option changed: weechat.bar.nicklist.color_fg = 31  (default: default)
+2014-10-03 20:02:50		Option changed: weechat.bar.nicklist.separator = off  (default: on)
+2014-10-03 20:02:54		Option changed: weechat.bar.nicklist.separator = on
+2014-10-03 20:03:04		Option changed: weechat.bar.nicklist.conditions = "${nicklist} && ${window.number} == 1 || ${window.number} == 5"  (default: "${nicklist}")
+2014-10-03 20:03:30		Option changed: weechat.bar.nicklist.size = 15  (default: 0)
+2014-10-03 20:03:35		Option changed: weechat.bar.nicklist.size_max = 15  (default: 0)
+2014-10-03 20:03:49		Option changed: weechat.look.highlight_regex = ".*dedmons.*"  (default: "")
+2014-10-03 20:04:50		Trigger "url_color" created
+2014-10-03 20:10:52		Option changed: irc.color.nick_prefixes = "q:lightred;a:lightcyan;o:121;h:lightmagenta;v:229;*:lightblue"  (default: "q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue")
+2014-10-03 20:11:47		Option changed: weechat.look.color_nick_offline = on  (default: off)
+2014-10-03 20:12:04		Option changed: weechat.look.color_inactive_message = on
+2014-10-03 20:12:13		Option changed: weechat.look.color_inactive_window = on
+2014-10-03 20:12:17		Option changed: weechat.look.color_inactive_window = off  (default: on)
+2014-10-03 20:12:24		Option changed: weechat.look.color_inactive_message = off  (default: on)
+2014-10-03 20:12:32		Option changed: weechat.look.color_inactive_prefix_buffer = off  (default: on)
+2014-10-03 20:12:38		Option changed: weechat.look.color_inactive_prefix = off  (default: on)
+2014-10-03 20:13:51		Option changed: weechat.look.color_nick_offline = on  (default: off)
+2014-10-03 20:14:19		Option changed: weechat.look.separator_horizontal = "="  (default: "-")
+2014-10-03 20:14:28		Option changed: weechat.look.read_marker_string = "─"  (default: "- ")
+2014-10-03 20:15:00		[look] (weechat.conf)
+2014-10-03 20:15:00		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2014-10-03 20:15:00		1 options (matching with "weechat.look.day_change_message_1date")
+2014-10-03 20:15:09	=!=	Option "weechat.look.day_change_message_2date" not found (tip: you can use wildcard "*" in option to see a sublist)
+2014-10-03 20:15:26		[look] (weechat.conf)
+2014-10-03 20:15:26		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2014-10-03 20:15:26		1 options (matching with "weechat.look.day_change_message_2dates")
+2014-10-03 20:21:24		Option changed: irc.look.smart_filter = on
+2014-10-03 20:21:32		Filter "irc_smart" added:
+2014-10-03 20:21:32		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2014-10-03 20:22:20	=!=	No help available, "filters" is not a command or an option
+2014-10-03 20:22:27		[core]  /filter  list
+2014-10-03 20:22:27		                 enable|disable|toggle [<name>|@]
+2014-10-03 20:22:27		                 add <name> <buffer>[,<buffer>...] <tags> <regex>
+2014-10-03 20:22:27		                 rename <name> <new_name>
+2014-10-03 20:22:27		                 del <name>|-all
+2014-10-03 20:22:27		filter messages in buffers, to hide/show them according to tags or regex
+2014-10-03 20:22:27		   list: list all filters
+2014-10-03 20:22:27		 enable: enable filters (filters are enabled by default)
+2014-10-03 20:22:27		disable: disable filters
+2014-10-03 20:22:27		 toggle: toggle filters
+2014-10-03 20:22:27		   name: filter name ("@" = enable/disable all filters in current buffer)
+2014-10-03 20:22:27		    add: add a filter
+2014-10-03 20:22:27		 rename: rename a filter
+2014-10-03 20:22:27		    del: delete a filter
+2014-10-03 20:22:27		   -all: delete all filters
+2014-10-03 20:22:27		 buffer: comma separated list of buffers where filter is active:
+2014-10-03 20:22:27		         - this is full name including plugin (example: "irc.freenode.#weechat")
+2014-10-03 20:22:27		         - "*" means all buffers
+2014-10-03 20:22:27		         - a name starting with '!' is excluded
+2014-10-03 20:22:27		         - wildcard "*" is allowed
+2014-10-03 20:22:27		   tags: comma separated list of tags, for example "irc_join,irc_part,irc_quit"
+2014-10-03 20:22:27		         - logical "and": use "+" between tags (for example: "nick_toto+irc_action")
+2014-10-03 20:22:27		         - wildcard "*" is allowed
+2014-10-03 20:22:27		         - if tag starts with '!', then it is excluded and must NOT be in message
+2014-10-03 20:22:27		  regex: POSIX extended regular expression to search in line
+2014-10-03 20:22:27		         - use '\t' to separate prefix from message, special chars like '|' must be escaped: '\|'
+2014-10-03 20:22:27		         - if regex starts with '!', then matching result is reversed (use '\!' to start with '!')
+2014-10-03 20:22:27		         - two regular expressions are created: one for prefix and one for message
+2014-10-03 20:22:27		         - regex are case insensitive, they can start by "(?-i)" to become case sensitive
+2014-10-03 20:22:27		The default key alt+'=' toggles filtering on/off.
+2014-10-03 20:22:27		Tags most commonly used:
+2014-10-03 20:22:27		  no_filter, no_highlight, no_log, log0..log9 (log level),
+2014-10-03 20:22:27		  notify_none, notify_message, notify_private, notify_highlight,
+2014-10-03 20:22:27		  nick_xxx (xxx is nick in message), prefix_nick_ccc (ccc is color of nick),
+2014-10-03 20:22:27		  host_xxx (xxx is username + host in message),
+2014-10-03 20:22:27		  irc_xxx (xxx is command name or number, see /server raw or /debug tags),
+2014-10-03 20:22:27		  irc_numeric, irc_error, irc_action, irc_ctcp, irc_ctcp_reply, irc_smart_filter, away_info.
+2014-10-03 20:22:27		To see tags for lines in buffers: /debug tags
+2014-10-03 20:22:27		Examples:
+2014-10-03 20:22:27		  use IRC smart filter on all buffers:
+2014-10-03 20:22:27		    /filter add irc_smart * irc_smart_filter *
+2014-10-03 20:22:27		  use IRC smart filter on all buffers except those with "#weechat" in name:
+2014-10-03 20:22:27		    /filter add irc_smart *,!*#weechat* irc_smart_filter *
+2014-10-03 20:22:27		  filter all IRC join/part/quit messages:
+2014-10-03 20:22:27		    /filter add joinquit * irc_join,irc_part,irc_quit *
+2014-10-03 20:22:27		  filter nicks displayed when joining channels or with /names:
+2014-10-03 20:22:27		    /filter add nicks * irc_366 *
+2014-10-03 20:22:27		  filter nick "toto" on IRC channel #weechat:
+2014-10-03 20:22:27		    /filter add toto irc.freenode.#weechat nick_toto *
+2014-10-03 20:22:27		  filter IRC join/action messages from nick "toto":
+2014-10-03 20:22:27		    /filter add toto * nick_toto+irc_join,nick_toto+irc_action *
+2014-10-03 20:22:27		  filter lines containing "weechat sucks" on IRC channel #weechat:
+2014-10-03 20:22:27		    /filter add sucks irc.freenode.#weechat * weechat sucks
+2014-10-03 20:23:00		[core]  /filter  list
+2014-10-03 20:23:00		                 enable|disable|toggle [<name>|@]
+2014-10-03 20:23:00		                 add <name> <buffer>[,<buffer>...] <tags> <regex>
+2014-10-03 20:23:00		                 rename <name> <new_name>
+2014-10-03 20:23:00		                 del <name>|-all
+2014-10-03 20:23:00		filter messages in buffers, to hide/show them according to tags or regex
+2014-10-03 20:23:00		   list: list all filters
+2014-10-03 20:23:00		 enable: enable filters (filters are enabled by default)
+2014-10-03 20:23:00		disable: disable filters
+2014-10-03 20:23:00		 toggle: toggle filters
+2014-10-03 20:23:00		   name: filter name ("@" = enable/disable all filters in current buffer)
+2014-10-03 20:23:00		    add: add a filter
+2014-10-03 20:23:00		 rename: rename a filter
+2014-10-03 20:23:00		    del: delete a filter
+2014-10-03 20:23:00		   -all: delete all filters
+2014-10-03 20:23:00		 buffer: comma separated list of buffers where filter is active:
+2014-10-03 20:23:00		         - this is full name including plugin (example: "irc.freenode.#weechat")
+2014-10-03 20:23:00		         - "*" means all buffers
+2014-10-03 20:23:00		         - a name starting with '!' is excluded
+2014-10-03 20:23:00		         - wildcard "*" is allowed
+2014-10-03 20:23:00		   tags: comma separated list of tags, for example "irc_join,irc_part,irc_quit"
+2014-10-03 20:23:00		         - logical "and": use "+" between tags (for example: "nick_toto+irc_action")
+2014-10-03 20:23:00		         - wildcard "*" is allowed
+2014-10-03 20:23:00		         - if tag starts with '!', then it is excluded and must NOT be in message
+2014-10-03 20:23:00		  regex: POSIX extended regular expression to search in line
+2014-10-03 20:23:00		         - use '\t' to separate prefix from message, special chars like '|' must be escaped: '\|'
+2014-10-03 20:23:00		         - if regex starts with '!', then matching result is reversed (use '\!' to start with '!')
+2014-10-03 20:23:00		         - two regular expressions are created: one for prefix and one for message
+2014-10-03 20:23:00		         - regex are case insensitive, they can start by "(?-i)" to become case sensitive
+2014-10-03 20:23:00		The default key alt+'=' toggles filtering on/off.
+2014-10-03 20:23:00		Tags most commonly used:
+2014-10-03 20:23:00		  no_filter, no_highlight, no_log, log0..log9 (log level),
+2014-10-03 20:23:00		  notify_none, notify_message, notify_private, notify_highlight,
+2014-10-03 20:23:00		  nick_xxx (xxx is nick in message), prefix_nick_ccc (ccc is color of nick),
+2014-10-03 20:23:00		  host_xxx (xxx is username + host in message),
+2014-10-03 20:23:00		  irc_xxx (xxx is command name or number, see /server raw or /debug tags),
+2014-10-03 20:23:00		  irc_numeric, irc_error, irc_action, irc_ctcp, irc_ctcp_reply, irc_smart_filter, away_info.
+2014-10-03 20:23:00		To see tags for lines in buffers: /debug tags
+2014-10-03 20:23:00		Examples:
+2014-10-03 20:23:00		  use IRC smart filter on all buffers:
+2014-10-03 20:23:00		    /filter add irc_smart * irc_smart_filter *
+2014-10-03 20:23:00		  use IRC smart filter on all buffers except those with "#weechat" in name:
+2014-10-03 20:23:00		    /filter add irc_smart *,!*#weechat* irc_smart_filter *
+2014-10-03 20:23:00		  filter all IRC join/part/quit messages:
+2014-10-03 20:23:00		    /filter add joinquit * irc_join,irc_part,irc_quit *
+2014-10-03 20:23:00		  filter nicks displayed when joining channels or with /names:
+2014-10-03 20:23:00		    /filter add nicks * irc_366 *
+2014-10-03 20:23:00		  filter nick "toto" on IRC channel #weechat:
+2014-10-03 20:23:00		    /filter add toto irc.freenode.#weechat nick_toto *
+2014-10-03 20:23:00		  filter IRC join/action messages from nick "toto":
+2014-10-03 20:23:00		    /filter add toto * nick_toto+irc_join,nick_toto+irc_action *
+2014-10-03 20:23:00		  filter lines containing "weechat sucks" on IRC channel #weechat:
+2014-10-03 20:23:00		    /filter add sucks irc.freenode.#weechat * weechat sucks
+2014-10-03 20:24:19		Mouse is disabled
+2014-10-03 20:24:23	=!=	Error with command "/mouse on" (help on command: /help mouse)
+2014-10-03 20:24:26		[core]  /mouse  enable|disable|toggle [<delay>]
+2014-10-03 20:24:26		mouse control
+2014-10-03 20:24:26		 enable: enable mouse
+2014-10-03 20:24:26		disable: disable mouse
+2014-10-03 20:24:26		 toggle: toggle mouse
+2014-10-03 20:24:26		  delay: delay (in seconds) after which initial mouse state is restored (useful to temporarily disable mouse)
+2014-10-03 20:24:26		The mouse state is saved in option "weechat.look.mouse".
+2014-10-03 20:24:26		Examples:
+2014-10-03 20:24:26		  enable mouse:
+2014-10-03 20:24:26		    /mouse enable
+2014-10-03 20:24:26		  toggle mouse for 5 seconds:
+2014-10-03 20:24:26		    /mouse toggle 5
+2014-10-03 20:24:33		Mouse enabled
+2014-10-03 20:24:50		Options saved to sec.conf
+2014-10-03 20:24:50		Options saved to weechat.conf
+2014-10-03 20:24:50		Options saved to plugins.conf
+2014-10-03 20:24:50		Options saved to alias.conf
+2014-10-03 20:24:50		Options saved to aspell.conf
+2014-10-03 20:24:50		Options saved to charset.conf
+2014-10-03 20:24:50		Options saved to exec.conf
+2014-10-03 20:24:50		Options saved to irc.conf
+2014-10-03 20:24:50		Options saved to logger.conf
+2014-10-03 20:24:50		Options saved to relay.conf
+2014-10-03 20:24:50		Options saved to script.conf
+2014-10-03 20:24:50		Options saved to trigger.conf
+2014-10-03 20:24:50		Options saved to xfer.conf
+2014-10-03 20:24:50		Options saved to buffers.conf
+2014-10-03 20:24:50		Options saved to buffer_autoset.conf
+2014-10-03 20:24:50		Options saved to iset.conf
+2014-10-03 20:24:59		[core]  /filter  list
+2014-10-03 20:24:59		                 enable|disable|toggle [<name>|@]
+2014-10-03 20:24:59		                 add <name> <buffer>[,<buffer>...] <tags> <regex>
+2014-10-03 20:24:59		                 rename <name> <new_name>
+2014-10-03 20:24:59		                 del <name>|-all
+2014-10-03 20:24:59		filter messages in buffers, to hide/show them according to tags or regex
+2014-10-03 20:24:59		   list: list all filters
+2014-10-03 20:24:59		 enable: enable filters (filters are enabled by default)
+2014-10-03 20:24:59		disable: disable filters
+2014-10-03 20:24:59		 toggle: toggle filters
+2014-10-03 20:24:59		   name: filter name ("@" = enable/disable all filters in current buffer)
+2014-10-03 20:24:59		    add: add a filter
+2014-10-03 20:24:59		 rename: rename a filter
+2014-10-03 20:24:59		    del: delete a filter
+2014-10-03 20:24:59		   -all: delete all filters
+2014-10-03 20:24:59		 buffer: comma separated list of buffers where filter is active:
+2014-10-03 20:24:59		         - this is full name including plugin (example: "irc.freenode.#weechat")
+2014-10-03 20:24:59		         - "*" means all buffers
+2014-10-03 20:24:59		         - a name starting with '!' is excluded
+2014-10-03 20:24:59		         - wildcard "*" is allowed
+2014-10-03 20:24:59		   tags: comma separated list of tags, for example "irc_join,irc_part,irc_quit"
+2014-10-03 20:24:59		         - logical "and": use "+" between tags (for example: "nick_toto+irc_action")
+2014-10-03 20:24:59		         - wildcard "*" is allowed
+2014-10-03 20:24:59		         - if tag starts with '!', then it is excluded and must NOT be in message
+2014-10-03 20:24:59		  regex: POSIX extended regular expression to search in line
+2014-10-03 20:24:59		         - use '\t' to separate prefix from message, special chars like '|' must be escaped: '\|'
+2014-10-03 20:24:59		         - if regex starts with '!', then matching result is reversed (use '\!' to start with '!')
+2014-10-03 20:24:59		         - two regular expressions are created: one for prefix and one for message
+2014-10-03 20:24:59		         - regex are case insensitive, they can start by "(?-i)" to become case sensitive
+2014-10-03 20:24:59		The default key alt+'=' toggles filtering on/off.
+2014-10-03 20:24:59		Tags most commonly used:
+2014-10-03 20:24:59		  no_filter, no_highlight, no_log, log0..log9 (log level),
+2014-10-03 20:24:59		  notify_none, notify_message, notify_private, notify_highlight,
+2014-10-03 20:24:59		  nick_xxx (xxx is nick in message), prefix_nick_ccc (ccc is color of nick),
+2014-10-03 20:24:59		  host_xxx (xxx is username + host in message),
+2014-10-03 20:24:59		  irc_xxx (xxx is command name or number, see /server raw or /debug tags),
+2014-10-03 20:24:59		  irc_numeric, irc_error, irc_action, irc_ctcp, irc_ctcp_reply, irc_smart_filter, away_info.
+2014-10-03 20:24:59		To see tags for lines in buffers: /debug tags
+2014-10-03 20:24:59		Examples:
+2014-10-03 20:24:59		  use IRC smart filter on all buffers:
+2014-10-03 20:24:59		    /filter add irc_smart * irc_smart_filter *
+2014-10-03 20:24:59		  use IRC smart filter on all buffers except those with "#weechat" in name:
+2014-10-03 20:24:59		    /filter add irc_smart *,!*#weechat* irc_smart_filter *
+2014-10-03 20:24:59		  filter all IRC join/part/quit messages:
+2014-10-03 20:24:59		    /filter add joinquit * irc_join,irc_part,irc_quit *
+2014-10-03 20:24:59		  filter nicks displayed when joining channels or with /names:
+2014-10-03 20:24:59		    /filter add nicks * irc_366 *
+2014-10-03 20:24:59		  filter nick "toto" on IRC channel #weechat:
+2014-10-03 20:24:59		    /filter add toto irc.freenode.#weechat nick_toto *
+2014-10-03 20:24:59		  filter IRC join/action messages from nick "toto":
+2014-10-03 20:24:59		    /filter add toto * nick_toto+irc_join,nick_toto+irc_action *
+2014-10-03 20:24:59		  filter lines containing "weechat sucks" on IRC channel #weechat:
+2014-10-03 20:24:59		    /filter add sucks irc.freenode.#weechat * weechat sucks
+2014-10-03 20:25:57		Message filtering enabled
+2014-10-03 20:25:57		Message filters:
+2014-10-03 20:25:57		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2014-10-03 20:26:29	=!=	Error: unknown command "/weechat" (type /help for help)
+2014-10-03 20:26:32		[core]
+2014-10-03 20:26:32		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2014-10-03 20:26:32		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2014-10-03 20:26:32		[alias]
+2014-10-03 20:26:32		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    W        WII    
+2014-10-03 20:26:32		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        unalias  WC       WW     
+2014-10-03 20:26:32		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       V        WI     
+2014-10-03 20:26:32		[aspell]
+2014-10-03 20:26:32		  aspell
+2014-10-03 20:26:32		[charset]
+2014-10-03 20:26:32		  charset
+2014-10-03 20:26:32		[exec]
+2014-10-03 20:26:32		  exec
+2014-10-03 20:26:32		[irc]
+2014-10-03 20:26:32		  admin       ctcp        die         ison        list        msg         oper        quote       samode      servlist    topic       version     whowas    
+2014-10-03 20:26:32		  allchan     cycle       disconnect  join        lusers      names       part        reconnect   sanick      squery      trace       voice     
+2014-10-03 20:26:32		  allpv       dcc         halfop      kick        map         nick        ping        rehash      sapart      squit       unban       wallchops 
+2014-10-03 20:26:32		  allserv     dehalfop    ignore      kickban     me          notice      pong        remove      saquit      stats       unquiet     wallops   
+2014-10-03 20:26:32		  ban         deop        info        kill        mode        notify      query       restart     server      summon      userhost    who       
+2014-10-03 20:26:32		  connect     devoice     invite      links       motd        op          quiet       sajoin      service     time        users       whois     
+2014-10-03 20:26:32		[logger]
+2014-10-03 20:26:32		  logger
+2014-10-03 20:26:32		[lua]
+2014-10-03 20:26:32		  lua
+2014-10-03 20:26:32		[perl]
+2014-10-03 20:26:32		  buffers_detach  buffers_whitelist  highclean  highmon  iset  perl  sort_buffers
+2014-10-03 20:26:32		[python]
+2014-10-03 20:26:32		  autosetbuffer  cmd_help  python  urlserver
+2014-10-03 20:26:32		[relay]
+2014-10-03 20:26:32		  relay
+2014-10-03 20:26:32		[ruby]
+2014-10-03 20:26:32		  ruby
+2014-10-03 20:26:32		[script]
+2014-10-03 20:26:32		  script
+2014-10-03 20:26:32		[tcl]
+2014-10-03 20:26:32		  tcl
+2014-10-03 20:26:32		[trigger]
+2014-10-03 20:26:32		  trigger
+2014-10-03 20:26:32		[xfer]
+2014-10-03 20:26:32		  me  xfer
+2014-10-03 20:31:51		[core]  /buffer  list
+2014-10-03 20:31:51		                 clear [<number>|<name>|-merged|-all [<number>|<name>...]]
+2014-10-03 20:31:51		                 move <number>|-|+
+2014-10-03 20:31:51		                 swap <number1>|<name1> [<number2>|<name2>]
+2014-10-03 20:31:51		                 merge <number>
+2014-10-03 20:31:51		                 unmerge [<number>|-all]
+2014-10-03 20:31:51		                 hide [<number>|<name>|-all [<number>|<name>...]]
+2014-10-03 20:31:51		                 unhide [<number>|<name>|-all [<number>|<name>...]]
+2014-10-03 20:31:51		                 renumber [<number1> [<number2> [<start>]]]
+2014-10-03 20:31:51		                 close [<n1>[-<n2>]|<name>]
+2014-10-03 20:31:51		                 notify <level>
+2014-10-03 20:31:51		                 localvar
+2014-10-03 20:31:51		                 set <property> <value>
+2014-10-03 20:31:51		                 get <property>
+2014-10-03 20:31:51		                 <number>|-|+|<name>
+2014-10-03 20:31:51		manage buffers
+2014-10-03 20:31:51		    list: list buffers (without argument, this list is displayed)
+2014-10-03 20:31:51		   clear: clear buffer content (number for a buffer, -merged for merged buffers, -all for all buffers, or nothing for current buffer)
+2014-10-03 20:31:51		    move: move buffer in the list (may be relative, for example -1); "-" = move to first buffer number, "+" = move to last buffer number + 1
+2014-10-03 20:31:51		    swap: swap two buffers (swap with current buffer if only one number/name given)
+2014-10-03 20:31:51		   merge: merge current buffer to another buffer (chat area will be mix of both buffers)
+2014-10-03 20:31:51		          (by default ctrl-x switches between merged buffers)
+2014-10-03 20:31:51		 unmerge: unmerge buffer from other buffers which have same number
+2014-10-03 20:31:51		    hide: hide the buffer
+2014-10-03 20:31:51		  unhide: unhide the buffer
+2014-10-03 20:31:51		renumber: renumber buffers (works only if option weechat.look.buffer_auto_renumber is off)
+2014-10-03 20:31:51		   close: close buffer (number/range or name is optional)
+2014-10-03 20:31:51		  notify: set notify level for current buffer: this level determines whether buffer will be added to hotlist or not:
+2014-10-03 20:31:51		               none: never
+2014-10-03 20:31:51		          highlight: for highlights only
+2014-10-03 20:31:51		            message: for messages from users + highlights
+2014-10-03 20:31:51		                all: all messages
+2014-10-03 20:31:51		              reset: reset to default value (all)
+2014-10-03 20:31:51		localvar: display local variables for current buffer
+2014-10-03 20:31:51		     set: set a property for current buffer
+2014-10-03 20:31:51		     get: display a property of current buffer
+2014-10-03 20:31:51		  number: jump to buffer by number, possible prefix:
+2014-10-03 20:31:51		          '+': relative jump, add number to current
+2014-10-03 20:31:51		          '-': relative jump, sub number to current
+2014-10-03 20:31:51		          '*': jump to number, using option "weechat.look.jump_current_to_previous_buffer"
+2014-10-03 20:31:51		       -: jump to first buffer number
+2014-10-03 20:31:51		       +: jump to last buffer number
+2014-10-03 20:31:51		    name: jump to buffer by (partial) name
+2014-10-03 20:31:51		Examples:
+2014-10-03 20:31:51		  clear current buffer:
+2014-10-03 20:31:51		    /buffer clear
+2014-10-03 20:31:51		  move buffer to number 5:
+2014-10-03 20:31:51		    /buffer move 5
+2014-10-03 20:31:51		  swap buffer 1 with 3:
+2014-10-03 20:31:51		    /buffer swap 1 3
+2014-10-03 20:31:51		  swap buffer #weechat with current buffer:
+2014-10-03 20:31:51		    /buffer swap #weechat
+2014-10-03 20:31:51		  merge with core buffer:
+2014-10-03 20:31:51		    /buffer merge 1
+2014-10-03 20:31:51		  unmerge buffer:
+2014-10-03 20:31:51		    /buffer unmerge
+2014-10-03 20:31:51		  close current buffer:
+2014-10-03 20:31:51		    /buffer close
+2014-10-03 20:31:51		  close buffers 5 to 7:
+2014-10-03 20:31:51		    /buffer close 5-7
+2014-10-03 20:31:51		  jump to #weechat:
+2014-10-03 20:31:51		    /buffer #weechat
+2014-10-03 20:31:51		  jump to next buffer:
+2014-10-03 20:31:51		    /buffer +1
+2014-10-03 20:31:51		  jump to last buffer number:
+2014-10-03 20:31:51		    /buffer +
+2014-10-03 20:34:49		Options saved to sec.conf
+2014-10-03 20:34:49		Options saved to weechat.conf
+2014-10-03 20:34:49		Options saved to plugins.conf
+2014-10-03 20:34:49		Options saved to alias.conf
+2014-10-03 20:34:49		Options saved to aspell.conf
+2014-10-03 20:34:49		Options saved to charset.conf
+2014-10-03 20:34:49		Options saved to exec.conf
+2014-10-03 20:34:49		Options saved to irc.conf
+2014-10-03 20:34:49		Options saved to logger.conf
+2014-10-03 20:34:49		Options saved to relay.conf
+2014-10-03 20:34:49		Options saved to script.conf
+2014-10-03 20:34:49		Options saved to trigger.conf
+2014-10-03 20:34:49		Options saved to xfer.conf
+2014-10-03 20:34:49		Options saved to buffers.conf
+2014-10-03 20:34:49		Options saved to buffer_autoset.conf
+2014-10-03 20:34:49		Options saved to iset.conf
+2014-10-03 20:35:14		Layout of buffers+windows stored in "news" (current layout: news)
+2014-10-03 20:35:18		URL server stopped
+2014-10-03 20:35:18		python: scripts unloaded
+2014-10-03 20:35:18		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2014-10-03 20:35:18		perl: scripts unloaded

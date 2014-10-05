@@ -1,0 +1,18 @@
+{
+  0: ('03/10/14 20:47:19', 'root', 'irc.bitlbee.root', 'http://wiki.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  1: ('03/10/14 20:47:19', 'root', 'irc.bitlbee.root', 'http://bugs.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  2: ('03/10/14 20:47:39', 'root', 'irc.bitlbee.root', 'http://wiki.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  3: ('03/10/14 20:47:39', 'root', 'irc.bitlbee.root', 'http://bugs.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  4: ('03/10/14 21:04:13', 'root', 'irc.bitlbee.root', 'http://wiki.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  5: ('03/10/14 21:04:13', 'root', 'irc.bitlbee.root', 'http://bugs.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  6: ('03/10/14 21:10:43', 'root', 'irc.bitlbee.root', 'http://wiki.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  7: ('03/10/14 21:10:43', 'root', 'irc.bitlbee.root', 'http://bugs.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  8: ('03/10/14 21:12:15', 'root', 'irc.bitlbee.root', 'http://wiki.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  9: ('03/10/14 21:12:15', 'root', 'irc.bitlbee.root', 'http://bugs.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  10: ('03/10/14 21:27:48', 'root', 'irc.bitlbee.root', 'http://wiki.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  11: ('03/10/14 21:27:48', 'root', 'irc.bitlbee.root', 'http://bugs.bitlbee.org/.', 'root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  12: ('03/10/14 21:29:00', 'root', 'irc.bitlbee.&bitlbee', 'http://wiki.bitlbee.org/.', '@root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  13: ('03/10/14 21:29:00', 'root', 'irc.bitlbee.&bitlbee', 'http://bugs.bitlbee.org/.', '@root\tSome more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.'),
+  14: ('03/10/14 21:40:13', 'jabber_oauth', 'irc.bitlbee.jabber_oauth', 'https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/googletalk&response_type=code&redirect_uri=urn:ietf:wg:oauth:2.0:oob&client_id=783993391592.apps.googleusercontent.com', 'jabber_oauth\tOpen this URL in your browser to authenticate: https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/googletalk&response_type=code&redirect_uri=urn:ietf:wg:oauth:2.0:oob&client_id=783993391592.apps.googleusercontent.com'),
+  15: ('04/10/14 15:49:32', 'elasticdog', 'irc.freenode.#ledger', 'http://bugs.ledger-cli.org/show_bug.cgi?id=1081', 'elasticdog\ttbm: filed, for your reference http://bugs.ledger-cli.org/show_bug.cgi?id=1081'),
+}
